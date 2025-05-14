@@ -3,6 +3,7 @@ import AvatarModal from './components/AvatarModal';
 import { CirclePlus } from 'lucide-react';
 import AvatarSection from './components/AvatarSection';
 import FloatingButton from './components/FloatingButton';
+import logo from '/logo.jpg'
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -14,7 +15,7 @@ function App() {
       <header className="w-full flex flex-col md:flex-row justify-between items-center p-10">
         <div className="flex sm:flex-row flex-col items-center gap-5">
           <div>
-            <img src="./src/assets/logo.jpg" alt="Logo" className="w-24 h-24 rounded-full" />
+            <img src={logo} alt="Logo" className="w-24 h-24 rounded-full" />
           </div>
           <div className="flex flex-col items-center justify-center">
             <h1 className="text-3xl md:text-4xl mb-2 font-bruno">AI Dashboard</h1>
