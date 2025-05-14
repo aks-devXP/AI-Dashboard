@@ -1,6 +1,6 @@
 # AI Avatar Dashboard
 
-A modern, responsive React + Tailwind CSS dashboard for managing AI-generated avatars. This project is designed as a SaaS starter template, featuring modular components, beautiful UI, and a clean codebase ready for expansion.
+A modern, responsive React + Tailwind CSS dashboard for managing custom avatars. This project is designed as a SaaS starter template, featuring modular components, beautiful UI, and a clean codebase ready for expansion.
 
 ## Features
 
