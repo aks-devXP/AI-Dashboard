@@ -1,0 +1,11 @@
+/* Importing Bruno Ace and Electrolize font*/
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Electrolize&display=swap');
+
+/* Importing Tailwind CSS */
+@import "tailwindcss";
+
+@theme{
+    --font-bruno: "Bruno Ace", sans-serif;
+    --font-electrolize: "Electrolize", sans-serif;
+}
+
